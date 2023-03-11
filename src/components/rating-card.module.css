@@ -1,0 +1,84 @@
+.card {
+  background-color: #202620;
+  width: 350px;
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.star {
+  background-color: #393f47;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.description {
+  color: #8b919d;
+  font-size: 12px;
+  text-align: center;
+}
+
+.text h1 {
+  padding-bottom: 0.5rem;
+}
+
+.ratingButton {
+  background-color: #393f47;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.ratingButton:hover {
+  background-color: #7c8798;
+}
+
+.ratingButton:focus {
+  background-color: #f57414;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  color: white;
+  background-color: #f57414;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit:hover {
+  color: #f57414;
+  background-color: white;
+}
+
+.pill {
+  background-color: #393f47;
+  color: #f57414;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.textCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
